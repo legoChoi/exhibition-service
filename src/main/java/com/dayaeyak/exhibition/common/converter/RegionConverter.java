@@ -1,6 +1,6 @@
 package com.dayaeyak.exhibition.common.converter;
 
-import com.dayaeyak.exhibition.domain.exhibition.enums.Region;
+import com.dayaeyak.exhibition.domain.exhibition.domain.enums.Region;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
