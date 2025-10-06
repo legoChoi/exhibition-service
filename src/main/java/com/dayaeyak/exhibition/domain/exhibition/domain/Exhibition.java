@@ -3,7 +3,7 @@ package com.dayaeyak.exhibition.domain.exhibition.domain;
 import com.dayaeyak.exhibition.common.entity.BaseEntity;
 import com.dayaeyak.exhibition.common.exception.CustomRuntimeException;
 import com.dayaeyak.exhibition.common.exception.type.ExhibitionExceptionType;
-import com.dayaeyak.exhibition.domain.artist.Artist;
+import com.dayaeyak.exhibition.domain.artist.domain.Artist;
 import com.dayaeyak.exhibition.domain.exhibition.presentation.dto.request.ExhibitionUpdateRequestDto;
 import com.dayaeyak.exhibition.domain.exhibition.domain.enums.Grade;
 import com.dayaeyak.exhibition.domain.exhibition.domain.enums.Region;

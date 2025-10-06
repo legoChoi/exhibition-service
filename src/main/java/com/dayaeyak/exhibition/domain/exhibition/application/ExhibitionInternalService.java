@@ -2,7 +2,7 @@ package com.dayaeyak.exhibition.domain.exhibition.application;
 
 import com.dayaeyak.exhibition.common.exception.CustomRuntimeException;
 import com.dayaeyak.exhibition.common.exception.type.ExhibitionExceptionType;
-import com.dayaeyak.exhibition.domain.artist.Artist;
+import com.dayaeyak.exhibition.domain.artist.domain.Artist;
 import com.dayaeyak.exhibition.domain.exhibition.domain.Exhibition;
 import com.dayaeyak.exhibition.domain.exhibition.presentation.dto.request.ExhibitionCreateArtistRequestDto;
 import com.dayaeyak.exhibition.domain.exhibition.presentation.dto.request.ExhibitionCreateRequestDto;

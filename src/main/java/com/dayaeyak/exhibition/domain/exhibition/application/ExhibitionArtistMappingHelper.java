@@ -1,7 +1,7 @@
 package com.dayaeyak.exhibition.domain.exhibition.application;
 
-import com.dayaeyak.exhibition.domain.artist.Artist;
-import com.dayaeyak.exhibition.domain.artist.jpa.ArtistJpaRepository;
+import com.dayaeyak.exhibition.domain.artist.domain.Artist;
+import com.dayaeyak.exhibition.domain.artist.infrastructure.jpa.ArtistJpaRepository;
 import com.dayaeyak.exhibition.domain.exhibition.domain.Exhibition;
 import com.dayaeyak.exhibition.domain.exhibition.presentation.dto.request.ExhibitionUpdateRequestDto;
 import lombok.RequiredArgsConstructor;

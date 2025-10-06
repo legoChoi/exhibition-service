@@ -1,7 +1,7 @@
-package com.dayaeyak.exhibition.domain.artist.dto.response;
+package com.dayaeyak.exhibition.domain.artist.presentation.dto.response;
 
 import com.dayaeyak.exhibition.common.dto.PageInfoResponseDto;
-import com.dayaeyak.exhibition.domain.artist.Artist;
+import com.dayaeyak.exhibition.domain.artist.domain.Artist;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

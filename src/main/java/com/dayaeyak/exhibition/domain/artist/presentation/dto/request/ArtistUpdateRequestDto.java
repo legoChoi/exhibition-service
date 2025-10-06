@@ -1,8 +1,7 @@
-package com.dayaeyak.exhibition.domain.artist.dto.request;
+package com.dayaeyak.exhibition.domain.artist.presentation.dto.request;
 
-import com.dayaeyak.exhibition.domain.artist.constraints.ArtistValidationMessage;
+import com.dayaeyak.exhibition.common.constraints.ArtistValidationMessage;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Size;
 
 public record ArtistUpdateRequestDto(
         @NotBlank(message = ArtistValidationMessage.INVALID_NAME_MESSAGE)

@@ -1,6 +1,6 @@
 package com.dayaeyak.exhibition.domain.exhibition.presentation.dto.response;
 
-import com.dayaeyak.exhibition.domain.artist.Artist;
+import com.dayaeyak.exhibition.domain.artist.domain.Artist;
 import com.dayaeyak.exhibition.domain.exhibition.domain.Exhibition;
 import com.dayaeyak.exhibition.domain.exhibition.domain.enums.Grade;
 import com.dayaeyak.exhibition.domain.exhibition.domain.enums.Region;

@@ -1,6 +1,6 @@
-package com.dayaeyak.exhibition.domain.artist.dto.response;
+package com.dayaeyak.exhibition.domain.artist.presentation.dto.response;
 
-import com.dayaeyak.exhibition.domain.artist.Artist;
+import com.dayaeyak.exhibition.domain.artist.domain.Artist;
 
 public record ArtistSearchResponseDto(
         Long artistId,

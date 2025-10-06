@@ -1,6 +1,6 @@
-package com.dayaeyak.exhibition.domain.artist.jpa;
+package com.dayaeyak.exhibition.domain.artist.infrastructure.jpa;
 
-import com.dayaeyak.exhibition.domain.artist.Artist;
+import com.dayaeyak.exhibition.domain.artist.domain.Artist;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Collection;

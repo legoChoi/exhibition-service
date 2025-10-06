@@ -1,4 +1,4 @@
-package com.dayaeyak.exhibition.domain.artist.constraints;
+package com.dayaeyak.exhibition.common.constraints;
 
 public class ArtistValidationMessage {
 

@@ -1,14 +1,15 @@
-package com.dayaeyak.exhibition.domain.artist;
+package com.dayaeyak.exhibition.domain.artist.application;
 
 import com.dayaeyak.exhibition.common.exception.CustomRuntimeException;
 import com.dayaeyak.exhibition.common.exception.type.ArtistExceptionType;
-import com.dayaeyak.exhibition.domain.artist.dto.request.ArtistCreateRequestDto;
-import com.dayaeyak.exhibition.domain.artist.dto.request.ArtistUpdateRequestDto;
-import com.dayaeyak.exhibition.domain.artist.dto.response.ArtistCreateResponseDto;
-import com.dayaeyak.exhibition.domain.artist.dto.response.ArtistSearchPageResponseDto;
-import com.dayaeyak.exhibition.domain.artist.dto.response.ArtistUpdateResponseDto;
-import com.dayaeyak.exhibition.domain.artist.jpa.ArtistJpaRepository;
-import com.dayaeyak.exhibition.domain.artist.querydsl.ArtistQuerydslRepository;
+import com.dayaeyak.exhibition.domain.artist.domain.Artist;
+import com.dayaeyak.exhibition.domain.artist.presentation.dto.request.ArtistCreateRequestDto;
+import com.dayaeyak.exhibition.domain.artist.presentation.dto.request.ArtistUpdateRequestDto;
+import com.dayaeyak.exhibition.domain.artist.presentation.dto.response.ArtistCreateResponseDto;
+import com.dayaeyak.exhibition.domain.artist.presentation.dto.response.ArtistSearchPageResponseDto;
+import com.dayaeyak.exhibition.domain.artist.presentation.dto.response.ArtistUpdateResponseDto;
+import com.dayaeyak.exhibition.domain.artist.infrastructure.jpa.ArtistJpaRepository;
+import com.dayaeyak.exhibition.domain.artist.infrastructure.querydsl.ArtistQuerydslRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

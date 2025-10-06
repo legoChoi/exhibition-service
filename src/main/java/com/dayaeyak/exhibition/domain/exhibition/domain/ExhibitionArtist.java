@@ -1,6 +1,6 @@
 package com.dayaeyak.exhibition.domain.exhibition.domain;
 
-import com.dayaeyak.exhibition.domain.artist.Artist;
+import com.dayaeyak.exhibition.domain.artist.domain.Artist;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;

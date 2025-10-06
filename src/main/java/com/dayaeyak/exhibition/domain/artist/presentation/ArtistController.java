@@ -1,12 +1,13 @@
-package com.dayaeyak.exhibition.domain.artist;
+package com.dayaeyak.exhibition.domain.artist.presentation;
 
 import com.dayaeyak.exhibition.common.entity.ApiResponse;
-import com.dayaeyak.exhibition.domain.artist.constraints.ArtistResponseMessage;
-import com.dayaeyak.exhibition.domain.artist.dto.request.ArtistCreateRequestDto;
-import com.dayaeyak.exhibition.domain.artist.dto.request.ArtistUpdateRequestDto;
-import com.dayaeyak.exhibition.domain.artist.dto.response.ArtistCreateResponseDto;
-import com.dayaeyak.exhibition.domain.artist.dto.response.ArtistSearchPageResponseDto;
-import com.dayaeyak.exhibition.domain.artist.dto.response.ArtistUpdateResponseDto;
+import com.dayaeyak.exhibition.domain.artist.application.ArtistService;
+import com.dayaeyak.exhibition.common.constraints.ArtistResponseMessage;
+import com.dayaeyak.exhibition.domain.artist.presentation.dto.request.ArtistCreateRequestDto;
+import com.dayaeyak.exhibition.domain.artist.presentation.dto.request.ArtistUpdateRequestDto;
+import com.dayaeyak.exhibition.domain.artist.presentation.dto.response.ArtistCreateResponseDto;
+import com.dayaeyak.exhibition.domain.artist.presentation.dto.response.ArtistSearchPageResponseDto;
+import com.dayaeyak.exhibition.domain.artist.presentation.dto.response.ArtistUpdateResponseDto;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

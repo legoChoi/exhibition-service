@@ -1,7 +1,6 @@
-package com.dayaeyak.exhibition.domain.artist.querydsl;
+package com.dayaeyak.exhibition.domain.artist.infrastructure.querydsl;
 
-import com.dayaeyak.exhibition.domain.artist.Artist;
-import com.dayaeyak.exhibition.domain.artist.QArtist;
+import com.dayaeyak.exhibition.domain.artist.domain.Artist;
 import com.querydsl.core.types.Predicate;
 import com.querydsl.core.types.dsl.BooleanExpression;
 import com.querydsl.jpa.impl.JPAQuery;

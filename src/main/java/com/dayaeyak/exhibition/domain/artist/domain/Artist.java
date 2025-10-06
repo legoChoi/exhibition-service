@@ -1,7 +1,7 @@
-package com.dayaeyak.exhibition.domain.artist;
+package com.dayaeyak.exhibition.domain.artist.domain;
 
 import com.dayaeyak.exhibition.common.entity.BaseEntity;
-import com.dayaeyak.exhibition.domain.artist.dto.request.ArtistUpdateRequestDto;
+import com.dayaeyak.exhibition.domain.artist.presentation.dto.request.ArtistUpdateRequestDto;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;
